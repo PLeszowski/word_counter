@@ -6,14 +6,10 @@ public class Demo {
 
     public static void main(String[] args) throws IOException {
 
+        CountLine countLine = new CountLine();
 
-		CharacterCounter cc = new CharacterCounter();
+        System.out.println(countLine.count("file.txt"));
 
-		System.out.println("Number of characters: " + cc.count("file.txt"));
-
-		//WordCounter wc = new WordCounter();
-
-		//System.out.println("Number of words: " + wc.count("file.txt"));
 
     }
 }
