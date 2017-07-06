@@ -7,11 +7,11 @@ public class Demo {
 
     public static void main(String[] args) throws IOException {
 
-		String filePath = "file.txt";
+		String filePath;
 
-        LineCounter lineCounter = new LineCounter();
-        CharacterCounter characterCounter = new CharacterCounter();
-		WordCounter wordCounter = new WordCounter();
+		Countable lineCounter = new LineCounter();
+		Countable characterCounter = new CharacterCounter();
+		Countable wordCounter = new WordCounter();
 
 
 		Scanner scanner = new Scanner(System.in);
