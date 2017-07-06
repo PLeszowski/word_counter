@@ -13,7 +13,6 @@ public class Demo {
 		Countable charCounter = new CharacterCounter();
 		Countable wordCounter = new WordCounter();
 
-
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Provide path to file");
 
