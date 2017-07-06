@@ -10,7 +10,7 @@ public class Demo {
 		String filePath;
 
 		Countable lineCounter = new LineCounter();
-		Countable characterCounter = new CharacterCounter();
+		Countable charCounter = new CharacterCounter();
 		Countable wordCounter = new WordCounter();
 
 
@@ -20,7 +20,7 @@ public class Demo {
 		filePath = scanner.nextLine();
 
         System.out.println("Number of lines: " + lineCounter.count(filePath));
-		System.out.println("Number of characters: " + characterCounter.count(filePath));
+		System.out.println("Number of chars: " + charCounter.count(filePath));
 		System.out.println("Number of words: " + wordCounter.count(filePath));
 
     }
